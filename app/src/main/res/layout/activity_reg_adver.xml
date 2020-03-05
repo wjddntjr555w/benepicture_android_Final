@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fff3f3f3"
+    android:orientation="vertical"
+    tools:context="com.bene.pictures.ui.join.JoinAgreeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/basic_bg">
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="광고신청"
+            android:textColor="@color/color_ffffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imv_back"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/icon04" />
+
+    </FrameLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fff3f3f3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="광고형식"
+                android:textColor="@color/color_ff757575"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lly_game_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv_game"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon08" />
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="게임"
+                        android:textColor="@color/color_ff757575"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lly_video_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="25dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imv_video"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon07" />
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="영상"
+                        android:textColor="@color/color_ff757575"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_mark"/>
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="게임의 경우 JPG형식의 이미지 파일을 업로드 해야 하며, 광고용 게임의 배경으로 활용됩니다."
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_mark"/>
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="영상의 경우, Gif파일 또는 MP4파일만 업로드 가능합니다."
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="등록기간"
+                android:textColor="@color/color_ff757575"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/fly_period_from"
+                    android:layout_width="0dip"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke">
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:id="@+id/edt_period_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="35dp"
+                        android:background="@color/color_transparent"
+                        android:gravity="center"
+                        android:hint="2019-01-01"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/color_ff595959"
+                        android:textColorHint="@color/color_ffbdbdbd"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imv_period_from_cal"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:scaleType="center"
+                        android:src="@drawable/icon19" />
+
+                </FrameLayout>
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="~"
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:id="@+id/fly_period_to"
+                    android:layout_width="0dip"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke">
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:id="@+id/edt_period_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="35dp"
+                        android:background="@color/color_transparent"
+                        android:gravity="center"
+                        android:hint="2019-01-01"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/color_ff595959"
+                        android:textColorHint="@color/color_ffbdbdbd"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imv_period_to_cal"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:scaleType="center"
+                        android:src="@drawable/icon19" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_getfile"
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/xml_btn_rect_1976d2"
+                    android:gravity="center"
+                    android:text="파일불러오기"
+                    android:textColor="@color/color_ffffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/edt_filename"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_toStartOf="@id/txv_getfile"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                    android:ellipsize="middle"
+                    android:gravity="center_vertical"
+                    android:hint="파일명"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:textColor="@color/color_ff595959"
+                    android:textColorHint="@color/color_ffbdbdbd"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.bene.pictures.ui.widget.BaseEditText
+                android:id="@+id/edt_adname"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                android:gravity="center_vertical"
+                android:hint="광고상품명(최대8글자)"
+                android:inputType="text"
+                android:maxLength="8"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/color_ff595959"
+                android:textColorHint="@color/color_ffbdbdbd"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseEditText
+                android:id="@+id/edt_link"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                android:gravity="center_vertical"
+                android:hint="광고link주소 URL"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/color_ff595959"
+                android:textColorHint="@color/color_ffbdbdbd"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseEditText
+                android:id="@+id/edt_count"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                android:gravity="center_vertical"
+                android:hint="광고제공인원(횟수)입력"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/color_ff595959"
+                android:textColorHint="@color/color_ffbdbdbd"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseEditText
+                android:id="@+id/edt_budget"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:hint="예상비용(비용은 자동산출됩니다.)"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/color_ff595959"
+                android:textColorHint="@color/color_ffbdbdbd"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:id="@+id/fly_agree_guide_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="gone">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="광고 신청 약관 동의(필수)"
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imv_agree_adterm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:background="@drawable/icon05" />
+
+            </FrameLayout>
+
+            <ScrollView
+                android:id="@+id/scv_adterm_bg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/xml_bg2_round_rect_ffffff_stroke"
+                android:nestedScrollingEnabled="true"
+                android:padding="12dp"
+                android:visibility="gone">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_adterm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </ScrollView>
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_regadver"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/xml_btn_round_blue"
+                android:gravity="center"
+                android:text="광고신청"
+                android:textColor="@color/color_ffffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

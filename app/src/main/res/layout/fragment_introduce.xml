@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fff3f3f3"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_search"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/xml_btn_round_rect_1976d2"
+                android:gravity="center"
+                android:text="검색"
+                android:textColor="@color/color_ffffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseEditText
+                android:id="@+id/edt_search"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@id/txv_search"
+                android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                android:gravity="center_vertical"
+                android:hint="검색하려는 닉네임을 입력해주세요."
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/color_ff595959"
+                android:textColorHint="@color/color_ffbdbdbd"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_contents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color_fff3f3f3"
+            app:layoutManager="LinearLayoutManager" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fly_kakao_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fff3f3f3"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imv_kakao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/label7" />
+
+    </FrameLayout>
+</FrameLayout>

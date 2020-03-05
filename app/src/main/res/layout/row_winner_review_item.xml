@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lly_bg"
+    android:layout_width="210dp"
+    android:layout_height="130dp"
+    android:layout_marginEnd="20dp"
+    app:cardBackgroundColor="@color/color_transparent"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="0dp"
+    app:cardPreventCornerOverlap="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_winter_review"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="10dp">
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/color_black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/color_ff757575"
+            android:textSize="9sp" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/color_ff757575"
+            android:textSize="10sp" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_ad_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/color_ff757575"
+            android:textSize="10sp" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/color_ff757575"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

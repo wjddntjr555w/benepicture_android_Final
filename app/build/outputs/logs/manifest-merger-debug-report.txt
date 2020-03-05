@@ -1,0 +1,939 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7543695b517ea012f1828506b0c493e8/firebase-core-16.0.6/AndroidManifest.xml:2:1-9:12
+MERGED from [:LibViewpagerIndicator] /Users/jeong-useog/Desktop/bene_android/android/LibViewpagerIndicator/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:LibMaterial] /Users/jeong-useog/Desktop/bene_android/android/LibMaterial/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/64b5d020a667d329c10f73d151f637ea/play-services-measurement-api-16.0.4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/9f05c936380483ef34b5bcc64d870bc5/firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3a50e104e20db4b6e43b5b07268d584/play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/071f624d470d600b10adf90fa8a9db52/firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3ab5bfc6c1c3c747572f4eee4f2031ae/play-services-measurement-base-16.0.5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/334bf76f65804d304f5926898629ad45/play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d24e92dd1c044a1bd4133f9557bb8d7d/play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7a824cfc4c3fff23c32b43323fa4d6bd/support-v4-27.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/6f98c65da9d7e28442de1cb9dd57cf93/design-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [:LibAdvancedRecycler] /Users/jeong-useog/Desktop/bene_android/android/LibAdvancedRecycler/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3280483ab5092bb392437dc5b44de182/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f66e32f243c312eb820f1eceed149a82/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fb13303ff22b7b1ec296051339acf48c/multidex-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3b9cc68a7789be8d5b9f68f691b3825f/cardview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:butterknife-8.7.0:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/5b8a8f278e74ef1f7e3328cca1a787e0/butterknife-8.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [:android-image-cropper-2.7.0:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c5475261da282c0eeef022552a957129/android-image-cropper-2.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:17:1-73:12
+MERGED from [:imagefilters-1.0.7:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e46b004c7fe93747afebc4f4f6aab78b/imagefilters-1.0.7/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:exifinterface:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/75139809917d3a7edb426e69cb7e7465/exifinterface-27.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:LibWKVideoPlayer] /Users/jeong-useog/Desktop/bene_android/android/LibWKVideoPlayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:2:1-29:12
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f21ac145188ee3e4585762300d1212da/Android-PickerView-4.1.8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4e6d93088f299c9594692d9c7caaf521/wheelview-1.3.3/AndroidManifest.xml:2:1-16:12
+MERGED from [com.kakao.sdk:kakaotalk:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/583fd95f4186e42a28d0e7b6ebaeb06f/kakaotalk-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:kakaostory:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b196daeffd1c80b09aba5e5000c93812/kakaostory-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:friends:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/449f928ad42d962e54e7b9d02c30765b/friends-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:kakaolink:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e25e3c316b1cf453efc2682cd819384/kakaolink-1.20.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eaade02cf971452d08b38147e3771f56/support-media-compat-27.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:usermgmt:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/878f451e2457db96320b8c8578743cd1/usermgmt-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8a064f318bbcf0d18f7e39902ef1348f/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0c08770d50c4075b97fc0744cbfef030/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/dee8a6fedc795bd98114135afd8a00a1/customtabs-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8937ff10935bbdfec63fcd03c3fae5d2/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b6b61110c242879560a929192d415e5c/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/79116b36957ecd94692407c5eb3a81ab/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f5a63548aed80afe764a5ace5d1b070a/transition-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b91a6826503881a80283f99c7c6c175d/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0f804fc559abeb62599c78e2dc248e31/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/ae88b69d4908827541bdf4f33826d7b3/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8c45ea37d7380db9af67eca0d50cc56d/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e02f0aec662225f2dadfe997040b6340/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/19d04e4fed2f4b046b1ca6d3a943d1b8/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d28cbef95e519f076ef5ac61b4c86c5b/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/298b291349a21dcb03125c6218d0b097/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/ed74f05724caa6b04e0f975e483b9745/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.contrarywind:wheelview:4.0.9] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e941cda9291e7e4824cbb283f8c5cb6/wheelview-4.0.9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c9b5b7607727c6175c57a796de365e7c/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2a0cadc3f350d931e70e880b96972bd8/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d137e3276f008d18da9aca3d09061776/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4768eb5e6639b11b15858eb86b1d9891/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fff3074ba6dba4f39b2a6755225f9628/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4d27bcfa3e302e518f460bf7bea411c6/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a5cf71872743641417dd6a81019b6438/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39635ffcdd43eab3b368a5b827e9b5aa/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8ddcaef9ba5ea55cf52464d394081095/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/94029abb7b09cf510c7cb8d64cb6f9b8/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/5af2ef17c450bb7d26603e96d5abd96b/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:message-template:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7a1655ac49e8f0da70bbf9d35ae983b4/message-template-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:network:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/19f0a88b76f2d047602a1c930311403f/network-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:common:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/976b4f4e9195c634f81769bf9c11daae/common-1.20.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:util:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/576b11cae5d565e4efb5758992d8283c/util-1.20.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+	package
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:1-183:12
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:25:5-80
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:12:5-81
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:26:5-81
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:13:5-65
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:24:5-65
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:15:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:16:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:18:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:20:5-60
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:20:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:21:19-67
+application
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:23:5-181:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7543695b517ea012f1828506b0c493e8/firebase-core-16.0.6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7543695b517ea012f1828506b0c493e8/firebase-core-16.0.6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/64b5d020a667d329c10f73d151f637ea/play-services-measurement-api-16.0.4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/64b5d020a667d329c10f73d151f637ea/play-services-measurement-api-16.0.4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/9f05c936380483ef34b5bcc64d870bc5/firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/9f05c936380483ef34b5bcc64d870bc5/firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3a50e104e20db4b6e43b5b07268d584/play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3a50e104e20db4b6e43b5b07268d584/play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/071f624d470d600b10adf90fa8a9db52/firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/071f624d470d600b10adf90fa8a9db52/firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3ab5bfc6c1c3c747572f4eee4f2031ae/play-services-measurement-base-16.0.5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3ab5bfc6c1c3c747572f4eee4f2031ae/play-services-measurement-base-16.0.5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/334bf76f65804d304f5926898629ad45/play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/334bf76f65804d304f5926898629ad45/play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d24e92dd1c044a1bd4133f9557bb8d7d/play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d24e92dd1c044a1bd4133f9557bb8d7d/play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/6f98c65da9d7e28442de1cb9dd57cf93/design-28.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/6f98c65da9d7e28442de1cb9dd57cf93/design-28.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f66e32f243c312eb820f1eceed149a82/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f66e32f243c312eb820f1eceed149a82/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:29:5-71:19
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:29:5-71:19
+MERGED from [:imagefilters-1.0.7:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e46b004c7fe93747afebc4f4f6aab78b/imagefilters-1.0.7/AndroidManifest.xml:11:5-15:19
+MERGED from [:imagefilters-1.0.7:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e46b004c7fe93747afebc4f4f6aab78b/imagefilters-1.0.7/AndroidManifest.xml:11:5-15:19
+MERGED from [:LibWKVideoPlayer] /Users/jeong-useog/Desktop/bene_android/android/LibWKVideoPlayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [:LibWKVideoPlayer] /Users/jeong-useog/Desktop/bene_android/android/LibWKVideoPlayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:9:5-27:19
+MERGED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:9:5-27:19
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4e6d93088f299c9594692d9c7caaf521/wheelview-1.3.3/AndroidManifest.xml:11:5-14:19
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4e6d93088f299c9594692d9c7caaf521/wheelview-1.3.3/AndroidManifest.xml:11:5-14:19
+MERGED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:11:5-20:19
+MERGED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:11:5-20:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c9b5b7607727c6175c57a796de365e7c/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c9b5b7607727c6175c57a796de365e7c/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:27:9-41
+	android:roundIcon
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:29:9-54
+	android:largeHeap
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:28:9-33
+	android:icon
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:31:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:24:9-38
+activity#com.bene.pictures.ui.main.takereward.RewardPickerActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:33:9-86
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:33:19-74
+uses-library#org.apache.http.legacy
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:35:9-37:40
+	android:required
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:36:13-50
+activity#com.bene.pictures.ui.splash.SplashActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:39:9-46:20
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:39:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:43:27-74
+meta-data#com.kakao.sdk.AppKey
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:49:9-51:53
+	android:value
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:51:13-50
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:50:13-48
+activity#com.bene.pictures.ui.login.LoginActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:52:9-55:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:54:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:55:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:53:13-51
+activity#com.bene.pictures.ui.join.JoinAgreeActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:56:9-59:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:58:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:59:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:57:13-54
+activity#com.bene.pictures.ui.join.JoinRegActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:60:9-63:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:62:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:63:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:61:13-52
+activity#com.bene.pictures.ui.login.IdFindActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:64:9-67:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:66:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:67:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:65:13-52
+activity#com.bene.pictures.ui.login.PwdFindActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:68:9-71:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:70:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:71:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:69:13-53
+activity#com.bene.pictures.ui.login.PwdChangeActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:72:9-75:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:74:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:75:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:73:13-55
+activity#com.bene.pictures.ui.main.MainActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:76:9-79:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:78:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:79:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:77:13-49
+activity#com.bene.pictures.ui.dialog.ConfirmDialogActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:80:9-82:59
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:82:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:81:13-60
+activity#com.bene.pictures.ui.dialog.ConfirmDialog1Activity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:83:9-85:59
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:84:13-61
+activity#com.bene.pictures.ui.dialog.SignOutActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:86:9-89:73
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:89:13-70
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:88:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:87:13-54
+activity#com.bene.pictures.ui.main.adver.VideoAdverViewActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:90:9-92:52
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:91:13-65
+activity#com.bene.pictures.ui.setting.AppAlarmSettingActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:93:9-96:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:95:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:96:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:94:13-63
+activity#com.bene.pictures.ui.setting.ProfileSettingActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:97:9-100:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:99:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:100:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:98:13-62
+activity#com.bene.pictures.ui.main.msgbox.MsgBoxActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:101:9-104:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:103:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:104:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:102:13-58
+activity#com.bene.pictures.ui.main.friendlist.FriendListActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:105:9-119:20
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:107:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:106:13-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/kakaolink_host+data:scheme:@string/kakao_scheme
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:109:13-118:29
+action#android.intent.action.VIEW
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:110:17-69
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:110:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:112:17-76
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:112:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:113:17-78
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:113:27-75
+data
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:115:17-117:61
+	android:host
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:116:21-58
+	android:scheme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:117:21-58
+activity#com.bene.pictures.ui.main.mypage.MypageActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:121:13-58
+activity#com.bene.pictures.ui.main.msgbox.MsgDetailActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:123:9-125:59
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:124:13-61
+activity#com.bene.pictures.ui.main.takereward.ReviewDetailActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:126:9-128:59
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:128:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:127:13-68
+activity#com.bene.pictures.ui.main.takereward.TakeRewardActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:129:9-131:73
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:131:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:130:13-66
+activity#com.bene.pictures.ui.main.mypage.SubscribeInfoDetailActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:132:9-134:59
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:134:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:133:13-71
+activity#com.bene.pictures.ui.main.adver.SwitchingPuzzleAdverActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:135:9-137:52
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:137:13-49
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:136:13-71
+activity#com.bene.pictures.ui.main.adver.ParingPuzzelAdverActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:138:9-140:52
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:140:13-49
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:139:13-68
+activity#com.bene.pictures.ui.main.regadver.RegAdverActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:141:9-144:73
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:143:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:144:13-70
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:142:13-62
+activity#com.bene.pictures.ui.main.winnner.WinnerCheckActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:145:9-147:52
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:147:13-49
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:146:13-64
+activity#com.bene.pictures.ui.dialog.UserCheckActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:148:9-151:73
+	android:windowSoftInputMode
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:151:13-70
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:150:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:149:13-56
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:152:9-155:59
+	android:screenOrientation
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:154:13-49
+	android:theme
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:155:13-56
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:153:13-76
+service#com.bene.pictures.fcm.FirebaseMessagingService
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:158:9-162:19
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:158:18-62
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:159:13-161:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:17-78
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:25-75
+service#com.bene.pictures.fcm.FirebaseInstanceIDService
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:163:9-167:19
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:163:18-63
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:164:13-166:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:17-80
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:25-77
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:169:9-177:20
+	android:grantUriPermissions
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:173:13-47
+	android:authorities
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:171:13-61
+	android:exported
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:170:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
+	android:resource
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
+	android:name
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
+uses-sdk
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7543695b517ea012f1828506b0c493e8/firebase-core-16.0.6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7543695b517ea012f1828506b0c493e8/firebase-core-16.0.6/AndroidManifest.xml:5:5-44
+MERGED from [:LibViewpagerIndicator] /Users/jeong-useog/Desktop/bene_android/android/LibViewpagerIndicator/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:LibViewpagerIndicator] /Users/jeong-useog/Desktop/bene_android/android/LibViewpagerIndicator/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:LibMaterial] /Users/jeong-useog/Desktop/bene_android/android/LibMaterial/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:LibMaterial] /Users/jeong-useog/Desktop/bene_android/android/LibMaterial/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/64b5d020a667d329c10f73d151f637ea/play-services-measurement-api-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/64b5d020a667d329c10f73d151f637ea/play-services-measurement-api-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/9f05c936380483ef34b5bcc64d870bc5/firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/9f05c936380483ef34b5bcc64d870bc5/firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3a50e104e20db4b6e43b5b07268d584/play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3a50e104e20db4b6e43b5b07268d584/play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/071f624d470d600b10adf90fa8a9db52/firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/071f624d470d600b10adf90fa8a9db52/firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3ab5bfc6c1c3c747572f4eee4f2031ae/play-services-measurement-base-16.0.5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3ab5bfc6c1c3c747572f4eee4f2031ae/play-services-measurement-base-16.0.5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/334bf76f65804d304f5926898629ad45/play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/334bf76f65804d304f5926898629ad45/play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d24e92dd1c044a1bd4133f9557bb8d7d/play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d24e92dd1c044a1bd4133f9557bb8d7d/play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7a824cfc4c3fff23c32b43323fa4d6bd/support-v4-27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7a824cfc4c3fff23c32b43323fa4d6bd/support-v4-27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/6f98c65da9d7e28442de1cb9dd57cf93/design-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/6f98c65da9d7e28442de1cb9dd57cf93/design-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:LibAdvancedRecycler] /Users/jeong-useog/Desktop/bene_android/android/LibAdvancedRecycler/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [:LibAdvancedRecycler] /Users/jeong-useog/Desktop/bene_android/android/LibAdvancedRecycler/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3280483ab5092bb392437dc5b44de182/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3280483ab5092bb392437dc5b44de182/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f66e32f243c312eb820f1eceed149a82/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f66e32f243c312eb820f1eceed149a82/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fb13303ff22b7b1ec296051339acf48c/multidex-1.0.2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fb13303ff22b7b1ec296051339acf48c/multidex-1.0.2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3b9cc68a7789be8d5b9f68f691b3825f/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/3b9cc68a7789be8d5b9f68f691b3825f/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:butterknife-8.7.0:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/5b8a8f278e74ef1f7e3328cca1a787e0/butterknife-8.7.0/AndroidManifest.xml:5:5-43
+MERGED from [:butterknife-8.7.0:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/5b8a8f278e74ef1f7e3328cca1a787e0/butterknife-8.7.0/AndroidManifest.xml:5:5-43
+MERGED from [:android-image-cropper-2.7.0:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c5475261da282c0eeef022552a957129/android-image-cropper-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:android-image-cropper-2.7.0:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c5475261da282c0eeef022552a957129/android-image-cropper-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [:imagefilters-1.0.7:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e46b004c7fe93747afebc4f4f6aab78b/imagefilters-1.0.7/AndroidManifest.xml:7:5-9:41
+MERGED from [:imagefilters-1.0.7:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e46b004c7fe93747afebc4f4f6aab78b/imagefilters-1.0.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/75139809917d3a7edb426e69cb7e7465/exifinterface-27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/75139809917d3a7edb426e69cb7e7465/exifinterface-27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [:LibWKVideoPlayer] /Users/jeong-useog/Desktop/bene_android/android/LibWKVideoPlayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:LibWKVideoPlayer] /Users/jeong-useog/Desktop/bene_android/android/LibWKVideoPlayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:7:5-44
+MERGED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:7:5-44
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f21ac145188ee3e4585762300d1212da/Android-PickerView-4.1.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f21ac145188ee3e4585762300d1212da/Android-PickerView-4.1.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4e6d93088f299c9594692d9c7caaf521/wheelview-1.3.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wx.wheelview:wheelview:1.3.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4e6d93088f299c9594692d9c7caaf521/wheelview-1.3.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaotalk:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/583fd95f4186e42a28d0e7b6ebaeb06f/kakaotalk-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaotalk:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/583fd95f4186e42a28d0e7b6ebaeb06f/kakaotalk-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaostory:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b196daeffd1c80b09aba5e5000c93812/kakaostory-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaostory:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b196daeffd1c80b09aba5e5000c93812/kakaostory-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:friends:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/449f928ad42d962e54e7b9d02c30765b/friends-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:friends:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/449f928ad42d962e54e7b9d02c30765b/friends-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaolink:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e25e3c316b1cf453efc2682cd819384/kakaolink-1.20.0/AndroidManifest.xml:8:5-11:62
+MERGED from [com.kakao.sdk:kakaolink:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e25e3c316b1cf453efc2682cd819384/kakaolink-1.20.0/AndroidManifest.xml:8:5-11:62
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eaade02cf971452d08b38147e3771f56/support-media-compat-27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eaade02cf971452d08b38147e3771f56/support-media-compat-27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:usermgmt:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/878f451e2457db96320b8c8578743cd1/usermgmt-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:usermgmt:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/878f451e2457db96320b8c8578743cd1/usermgmt-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8a064f318bbcf0d18f7e39902ef1348f/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8a064f318bbcf0d18f7e39902ef1348f/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0c08770d50c4075b97fc0744cbfef030/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0c08770d50c4075b97fc0744cbfef030/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/dee8a6fedc795bd98114135afd8a00a1/customtabs-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/dee8a6fedc795bd98114135afd8a00a1/customtabs-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8937ff10935bbdfec63fcd03c3fae5d2/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8937ff10935bbdfec63fcd03c3fae5d2/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b6b61110c242879560a929192d415e5c/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b6b61110c242879560a929192d415e5c/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/79116b36957ecd94692407c5eb3a81ab/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/79116b36957ecd94692407c5eb3a81ab/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f5a63548aed80afe764a5ace5d1b070a/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/f5a63548aed80afe764a5ace5d1b070a/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b91a6826503881a80283f99c7c6c175d/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/b91a6826503881a80283f99c7c6c175d/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0f804fc559abeb62599c78e2dc248e31/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0f804fc559abeb62599c78e2dc248e31/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/ae88b69d4908827541bdf4f33826d7b3/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/ae88b69d4908827541bdf4f33826d7b3/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8c45ea37d7380db9af67eca0d50cc56d/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8c45ea37d7380db9af67eca0d50cc56d/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e02f0aec662225f2dadfe997040b6340/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/e02f0aec662225f2dadfe997040b6340/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/19d04e4fed2f4b046b1ca6d3a943d1b8/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/19d04e4fed2f4b046b1ca6d3a943d1b8/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d28cbef95e519f076ef5ac61b4c86c5b/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d28cbef95e519f076ef5ac61b4c86c5b/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/298b291349a21dcb03125c6218d0b097/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/298b291349a21dcb03125c6218d0b097/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/ed74f05724caa6b04e0f975e483b9745/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/ed74f05724caa6b04e0f975e483b9745/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.contrarywind:wheelview:4.0.9] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e941cda9291e7e4824cbb283f8c5cb6/wheelview-4.0.9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:wheelview:4.0.9] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e941cda9291e7e4824cbb283f8c5cb6/wheelview-4.0.9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c9b5b7607727c6175c57a796de365e7c/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c9b5b7607727c6175c57a796de365e7c/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2a0cadc3f350d931e70e880b96972bd8/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2a0cadc3f350d931e70e880b96972bd8/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d137e3276f008d18da9aca3d09061776/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d137e3276f008d18da9aca3d09061776/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4768eb5e6639b11b15858eb86b1d9891/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4768eb5e6639b11b15858eb86b1d9891/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fff3074ba6dba4f39b2a6755225f9628/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fff3074ba6dba4f39b2a6755225f9628/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4d27bcfa3e302e518f460bf7bea411c6/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4d27bcfa3e302e518f460bf7bea411c6/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a5cf71872743641417dd6a81019b6438/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a5cf71872743641417dd6a81019b6438/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39635ffcdd43eab3b368a5b827e9b5aa/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39635ffcdd43eab3b368a5b827e9b5aa/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8ddcaef9ba5ea55cf52464d394081095/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/8ddcaef9ba5ea55cf52464d394081095/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/94029abb7b09cf510c7cb8d64cb6f9b8/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/94029abb7b09cf510c7cb8d64cb6f9b8/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/5af2ef17c450bb7d26603e96d5abd96b/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/5af2ef17c450bb7d26603e96d5abd96b/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:message-template:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7a1655ac49e8f0da70bbf9d35ae983b4/message-template-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:message-template:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7a1655ac49e8f0da70bbf9d35ae983b4/message-template-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:network:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/19f0a88b76f2d047602a1c930311403f/network-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:network:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/19f0a88b76f2d047602a1c930311403f/network-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:common:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/976b4f4e9195c634f81769bf9c11daae/common-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:common:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/976b4f4e9195c634f81769bf9c11daae/common-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:util:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/576b11cae5d565e4efb5758992d8283c/util-1.20.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:util:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/576b11cae5d565e4efb5758992d8283c/util-1.20.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.kakao.sdk:kakaolink:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2e25e3c316b1cf453efc2682cd819384/kakaolink-1.20.0/AndroidManifest.xml:11:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0fd334f6bf04da7d053f6d7e21c93a9a/firebase-analytics-impl-16.2.4/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:27:22-68
+activity#com.yanzhenjie.album.app.album.AlbumActivity
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:30:9-34:75
+	android:windowSoftInputMode
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:34:13-72
+	android:configChanges
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:32:13-59
+	android:theme
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:31:13-72
+activity#com.yanzhenjie.album.app.album.GalleryActivity
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:35:9-39:75
+	android:windowSoftInputMode
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:39:13-72
+	android:configChanges
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:37:13-59
+	android:theme
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:36:13-74
+activity#com.yanzhenjie.album.app.album.NullActivity
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:40:9-44:75
+	android:windowSoftInputMode
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:44:13-72
+	android:configChanges
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:42:13-59
+	android:theme
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:41:13-71
+activity#com.yanzhenjie.album.app.gallery.GalleryActivity
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:45:9-49:75
+	android:windowSoftInputMode
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:49:13-72
+	android:configChanges
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:47:13-59
+	android:theme
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:46:13-76
+activity#com.yanzhenjie.album.app.gallery.GalleryAlbumActivity
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:50:9-54:75
+	android:windowSoftInputMode
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:54:13-72
+	android:configChanges
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:52:13-59
+	android:theme
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:51:13-81
+activity#com.yanzhenjie.album.app.camera.CameraActivity
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:55:9-59:75
+	android:windowSoftInputMode
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:59:13-72
+	android:configChanges
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:57:13-59
+	android:theme
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:58:13-68
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:56:13-74
+provider#com.yanzhenjie.album.provider.CameraFileProvider
+ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:61:9-70:20
+	android:grantUriPermissions
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:65:13-47
+	android:authorities
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:63:13-69
+	android:multiprocess
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:66:13-40
+	android:exported
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from [:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:62:13-76
+activity#com.blankj.utilcode.util.PermissionUtils$PermissionActivity
+ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:10:9-15:75
+	android:multiprocess
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:13:13-40
+	android:windowSoftInputMode
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:15:13-72
+	android:configChanges
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:12:13-74
+	android:theme
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:14:13-55
+	android:name
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:11:13-87
+provider#com.blankj.utilcode.util.Utils$FileProvider4UtilCode
+ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:17:9-26:20
+	android:grantUriPermissions
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:21:13-47
+	android:authorities
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:19:13-69
+	android:multiprocess
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:22:13-40
+	android:exported
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:18:13-80
+activity#com.kakao.auth.authorization.authcode.KakaoWebViewActivity
+ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:12:9-19:20
+	android:label
+		ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:16:13-59
+	android:launchMode
+		ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:17:13-43
+	android:windowSoftInputMode
+		ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:15:13-37
+	android:configChanges
+		ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:13:13-86

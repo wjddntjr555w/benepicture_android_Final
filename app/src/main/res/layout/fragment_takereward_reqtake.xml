@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fff3f3f3"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_fff3f3f3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_fff3f3f3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2f363e"
+                android:padding="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_money04"
+                        android:drawablePadding="10dp"
+                        android:gravity="start"
+                        android:layout_gravity="center"
+                        android:text="수령가능한 금액"
+                        android:textColor="@color/color_ffffffff"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:id="@+id/txv_takable_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="0"
+                        android:textColor="@color/color_ffffffff"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_mark"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical"
+                        >
+
+                        <com.bene.pictures.ui.widget.BaseTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="상금 수령을 위해 정확한 계좌번호를 입력해주세요."
+                            android:textColor="#5a5a5a"
+                            android:textSize="11sp" />
+
+                        <com.bene.pictures.ui.widget.BaseTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="3dp"
+                            android:text="잘못된 계좌입력으로 정상출금이 되지 않을 경우, 책임을 지지 않습니다."
+                            android:textColor="#5a5a5a"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.bene.pictures.ui.widget.BaseEditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                    android:gravity="center_vertical"
+                    android:hint="이름(실명)"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_ff595959"
+                    android:textColorHint="@color/color_ffbdbdbd"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/edt_subscribe_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                    android:gravity="center_vertical"
+                    android:hint="수령 신청 응모권"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_ff595959"
+                    android:textColorHint="@color/color_ffbdbdbd"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/edt_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                    android:gravity="center_vertical"
+                    android:hint="은행입력"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_ff595959"
+                    android:textColorHint="@color/color_ffbdbdbd"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.bene.pictures.ui.widget.BaseEditText
+                    android:id="@+id/edt_citizen"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                    android:gravity="center_vertical"
+                    android:hint="주민번호(13자리)"
+                    android:inputType="number"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_ff595959"
+                    android:textColorHint="@color/color_ffbdbdbd"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:id="@+id/txv_account_auth"
+                        android:layout_width="150dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/xml_btn_rect_1976d2"
+                        android:gravity="center"
+                        android:text="계좌인증하기"
+                        android:textColor="@color/color_ffffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <com.bene.pictures.ui.widget.BaseEditText
+                        android:id="@+id/edt_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_toStartOf="@id/txv_account_auth"
+                        android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                        android:gravity="center_vertical"
+                        android:hint="계좌번호"
+                        android:inputType="number"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:textColor="@color/color_ff595959"
+                        android:textColorHint="@color/color_ffbdbdbd"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <com.bene.pictures.ui.widget.BaseEditText
+                    android:id="@+id/edt_review"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                    android:gravity="top"
+                    android:hint="@string/review_write_comment"
+                    android:inputType="textMultiLine"
+                    android:singleLine="false"
+                    android:padding="20dp"
+                    android:textColor="@color/color_ff595959"
+                    android:textColorHint="@color/color_ffbdbdbd"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:id="@+id/fly_agree_guide_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="상금수령관련 필수 고지 사항 및 안내내용 확인"
+                        android:textColor="@color/color_ff757575"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/imv_agree_guide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@drawable/icon05" />
+
+                </FrameLayout>
+
+                <ScrollView
+                    android:id="@+id/scv_guide_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/xml_bg2_round_rect_ffffff_stroke"
+                    android:nestedScrollingEnabled="true"
+                    android:padding="12dp">
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:id="@+id/txv_guide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
+                        android:textColor="@color/color_ff757575"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </ScrollView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_mark02"/>
+
+                    <com.bene.pictures.ui.widget.BaseTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:text="상금 수령 신청 후 해당 이용자의 계좌로 입금이 진행되며 입금과정의 딜레이가 발생할수 있습니다."
+                        android:textColor="@color/color_ffff3d00"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/xml_btn_round_blue"
+                    android:gravity="center"
+                    android:text="상금 수령 신청하기"
+                    android:textColor="@color/color_ffffffff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

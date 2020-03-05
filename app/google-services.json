@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "19243117445",
+    "firebase_url": "https://benepicture-d76ec.firebaseio.com",
+    "project_id": "benepicture-d76ec",
+    "storage_bucket": "benepicture-d76ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19243117445:android:9ffcabcd9e2aabe94332ec",
+        "android_client_info": {
+          "package_name": "com.bene.pictures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19243117445-hhmpqeka2i75i1a1qhr99gtsrk7j2g3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bene.pictures",
+            "certificate_hash": "4af9198a11d2c2510313bd914f08b10afa8eb4e5"
+          }
+        },
+        {
+          "client_id": "19243117445-es7alcrjufetajk1b2kpbahs70ppcnpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bene.pictures",
+            "certificate_hash": "ec15945c4746695bf6962a911f32b7d5ffd74209"
+          }
+        },
+        {
+          "client_id": "19243117445-pvra6ccj5i7r7praebom6mals5lge574.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqEenKnZ2pUPwR49vk4PMxKqe1JQG9uhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19243117445-pvra6ccj5i7r7praebom6mals5lge574.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

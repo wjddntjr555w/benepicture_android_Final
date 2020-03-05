@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fff3f3f3"
+    android:orientation="vertical"
+    tools:context="com.bene.pictures.ui.join.JoinAgreeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="30dp"
+        android:background="#78BFFD">
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="비밀번호 찾기"
+            android:textColor="@color/color_ffffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imv_back"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/icon04" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_authsend"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/xml_btn_rect_1976d2"
+                android:gravity="center"
+                android:text="인증번호보내기"
+                android:textColor="@color/color_ffffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseEditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toStartOf="@id/txv_authsend"
+                android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+                android:gravity="center_vertical"
+                android:hint="휴대폰 번호"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/color_ff595959"
+                android:textColorHint="@color/color_ffbdbdbd"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <com.bene.pictures.ui.widget.BaseEditText
+            android:id="@+id/edt_authcode"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/xml_bg3_rect_ffffff_stroke"
+            android:gravity="center_vertical"
+            android:hint="인증번호 입력"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/color_ff595959"
+            android:textColorHint="@color/color_ffbdbdbd"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.bene.pictures.ui.widget.BaseTextView
+        android:id="@+id/txv_authorize"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/xml_btn_round_rect_bdbdbd"
+        android:gravity="center"
+        android:text="인증"
+        android:textColor="@color/color_ffffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fly_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_alpha_black2">
+
+    <LinearLayout
+        android:id="@+id/lly_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/xml_dialog_bg"
+        android:orientation="vertical">
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="응모권번호 : "
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_createdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="생성일  :2019.09.15 12:00 "
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="사용내역"
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_funddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="적립  :2019.09.15 12:00 "
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_takedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="수령  :2019.09.15 12:00 "
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_takemoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="당첨내역 : 5000원"
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lly_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_take"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="상금수령"
+                    android:textColor="@color/color_black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_black" />
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_close"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="닫기"
+                    android:textColor="@color/color_ff545ac0"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

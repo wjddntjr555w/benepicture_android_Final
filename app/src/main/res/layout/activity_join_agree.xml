@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fff3f3f3"
+    android:orientation="vertical"
+    tools:context="com.bene.pictures.ui.join.JoinAgreeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/basic_bg">
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="이용약관"
+            android:textColor="@color/color_ffffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imv_back"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/icon04" />
+
+    </FrameLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="52dp"
+            android:paddingRight="52dp">
+
+            <FrameLayout
+                android:id="@+id/fly_agree_all_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="이용약관에 모두 동의합니다."
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imv_agree_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/icon05" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color_ffcccccc" />
+
+            <FrameLayout
+                android:id="@+id/fly_agree_useterm_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="서비스 이용약관"
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imv_agree_useterm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/icon05" />
+
+            </FrameLayout>
+
+            <ScrollView
+                android:id="@+id/scv_useterm_bg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/xml_bg2_round_rect_ffffff_stroke"
+                android:padding="12dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_useterm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:text="제 1 조\n이 약관은 베네픽쳐에서 제공하는 베네픽쳐관련 서비스이용과 관련하여 회사와 회원간의 권리와 의무 및  책임사항, 기타 필요한 사항을 규정함을 목표로 작성되었습니다.이 약관은 베네픽쳐에서 제공하는 베네픽쳐관련 서비스이용과 관련하여 회사와 회원간의 권리와 의무 및  책임사항, 기타 필요한 사항을 규정함을 목표로 작성되었습니다."
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </ScrollView>
+
+            <FrameLayout
+                android:id="@+id/fly_agree_policy_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="사용자정보취급 이용약관"
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imv_agree_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/icon05" />
+
+            </FrameLayout>
+
+            <ScrollView
+                android:id="@+id/scv_policy_bg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/xml_bg2_round_rect_ffffff_stroke"
+                android:padding="12dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:text="제 1 조\n이 약관은 베네픽쳐에서 제공하는 베네픽쳐관련 서비스이용과 관련하여 회사와 회원간의 권리와 의무 및  책임사항, 기타 필요한 사항을 규정함을 목표로 작성되었습니다.이 약관은 베네픽쳐에서 제공하는 베네픽쳐관련 서비스이용과 관련하여 회사와 회원간의 권리와 의무 및  책임사항, 기타 필요한 사항을 규정함을 목표로 작성되었습니다."
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </ScrollView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_ffcccccc" />
+
+            <FrameLayout
+                android:id="@+id/fly_agree_adver_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="광고성 정보 수신동의(선택)"
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imv_agree_adver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/icon05" />
+
+            </FrameLayout>
+
+            <ScrollView
+                android:id="@+id/scv_adver_bg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/xml_bg2_round_rect_ffffff_stroke"
+                android:padding="12dp">
+
+                <com.bene.pictures.ui.widget.BaseTextView
+                    android:id="@+id/txv_adver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:text="제 1 조\n이 약관은 베네픽쳐에서 제공하는 베네픽쳐관련 서비스이용과 관련하여 회사와 회원간의 권리와 의무 및  책임사항, 기타 필요한 사항을 규정함을 목표로 작성되었습니다.이 약관은 베네픽쳐에서 제공하는 베네픽쳐관련 서비스이용과 관련하여 회사와 회원간의 권리와 의무 및  책임사항, 기타 필요한 사항을 규정함을 목표로 작성되었습니다."
+                    android:textColor="@color/color_ff757575"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </ScrollView>
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_next"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="36dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/xml_btn_round_blue"
+                android:gravity="center"
+                android:text="다음"
+                android:textColor="@color/color_white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

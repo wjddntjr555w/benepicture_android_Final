@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LibAdvancedRecycler/LibAdvancedRecycler.iml" filepath="$PROJECT_DIR$/LibAdvancedRecycler/LibAdvancedRecycler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibCamera/LibCamera.iml" filepath="$PROJECT_DIR$/LibCamera/LibCamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibMaterial/LibMaterial.iml" filepath="$PROJECT_DIR$/LibMaterial/LibMaterial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibViewpagerIndicator/LibViewpagerIndicator.iml" filepath="$PROJECT_DIR$/LibViewpagerIndicator/LibViewpagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibWKVideoPlayer/LibWKVideoPlayer.iml" filepath="$PROJECT_DIR$/LibWKVideoPlayer/LibWKVideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

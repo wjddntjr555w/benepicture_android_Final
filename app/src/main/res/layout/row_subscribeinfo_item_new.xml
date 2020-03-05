@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rly_bg"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginTop="9dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frm_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_subscribe_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rly_header"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            >
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="19dp"
+                android:textColor="@color/color_white"
+                android:textSize="29sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="14dp"
+                android:text="당첨"
+                android:textColor="@color/color_white"
+                android:textSize="29sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_weight="1">
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txv_subscribeno"
+                android:layout_marginBottom="5dp"
+                android:text="응모권번호"
+                android:textColor="@color/color_black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_subscribeno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:textColor="#8f8e93"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text=""/>
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_ad_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txv_card"
+                android:layout_alignParentRight="true"
+                android:textColor="#ff545ac0"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="테스트광고"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

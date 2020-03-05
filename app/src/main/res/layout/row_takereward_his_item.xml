@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lly_bg"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:layout_marginBottom="5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:text="[운영자선물]"
+            android:textColor="@color/color_black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="날짜 - 2016/06/28 12:00"
+                android:textColor="#5a5a5a"
+                android:textSize="12sp" />
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:id="@+id/txv_subscribeno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="5dp"
+                android:text="응모권번호: 삼성갤럭시 167890"
+                android:textColor="#5a5a5a"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.bene.pictures.ui.widget.BaseTextView
+            android:id="@+id/txv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="20dp"
+            android:text="당첨 : 5000원"
+            android:textColor="#5a5a5a"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_ff757575"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/imv_mark"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_ff25d367" />
+
+    </FrameLayout>
+</LinearLayout>

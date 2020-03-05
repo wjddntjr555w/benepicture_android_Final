@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fff3f3f3"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/basic_bg">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp">
+
+            <com.bene.pictures.ui.widget.BaseTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="상금수령"
+                android:textColor="@color/color_ffffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imv_back"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon04" />
+        </FrameLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tbl_paging_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="41dp"
+            app:tabIndicatorColor="#f9bd00"
+            app:tabIndicatorHeight="3dp"
+            app:tabSelectedTextColor="@color/color_white"
+            app:tabTextColor="@color/color_white">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tbi_subscribe_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="당첨후기" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tbi_takereward_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="상금수령신청" />
+
+        </android.support.design.widget.TabLayout>
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpr_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

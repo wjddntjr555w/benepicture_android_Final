@@ -1,0 +1,1 @@
+include ':app', ':LibAdvancedRecycler', ':LibCamera', ':LibMaterial', ':LibViewpagerIndicator', ':LibWKVideoPlayer'

@@ -33,7 +33,7 @@ allprojects {
         versionMajor = 1
         versionMinor = 0
         versionPatch = 4
-        versionBuild = 8
+        versionBuild = 11
     }
 }
 

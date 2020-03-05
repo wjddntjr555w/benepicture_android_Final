@@ -969,7 +969,7 @@
     <string name="profile">프로필</string>
     <string name="req_album_desc">사진 앨범을(를)에 접근할 수 있도록\n허용하시겠습니까?</string>
     <string name="req_camera_desc">카메라 사용을(를)할 수 있도록\n허용하시겠습니까?</string>
-    <string name="review_write_comment">당첨후기를 작성해주세요(30자이상 작성)\n5,000원 이상 수령시 필수입력 해야 수령신청이 \n가능합니다.\n*비속어 사용시 수령신청이 반려될 수 있습니다.</string>
+    <string name="review_write_comment">당첨후기를 작성해주세요(10자이상 작성)\n*비속어 사용시 수령신청이 반려될 수 있습니다.</string>
     <string name="rise">Rise</string>
     <string name="save_success">저장되었습니다</string>
     <string name="search_menu_title">Search</string>

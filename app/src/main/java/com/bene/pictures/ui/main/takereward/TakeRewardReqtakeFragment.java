@@ -400,8 +400,8 @@ public class TakeRewardReqtakeFragment extends TakeRewardBaseFragment {
 
         String review = ui_edtReview.getText().toString();
 
-        if (review.length() < 30 && m_cost > 5000) {// 수령금액이 5000 이상인 경우에만
-            Toaster.showShort(_activity, "후기를 30자이상 입력해주세요.");
+        if (review.length() < 10 && m_cost > 5000) {// 수령금액이 5000 이상인 경우에만
+            Toaster.showShort(_activity, "후기를 10자이상 입력해주세요.");
             return;
         }
 

@@ -193,7 +193,7 @@ public class FriendListActivity extends BaseActivity {
                     public void onSuccess(MBase response) {
                         super.onSuccess(response);
 
-                        Toaster.showShort(FriendListActivity.this, "조작이 성공하였습니다.");
+                        Toaster.showShort(FriendListActivity.this, "선물을 보냈습니다.");
                     }
 
                     @Override

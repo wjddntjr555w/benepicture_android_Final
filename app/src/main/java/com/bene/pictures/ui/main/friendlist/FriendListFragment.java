@@ -163,7 +163,7 @@ public class FriendListFragment extends FriendListBaseFragment {
                     public void onSuccess(MBase response) {
                         super.onSuccess(response);
 
-                        Toaster.showShort(_activity, "조작이 성공하였습니다.");
+                        Toaster.showShort(_activity, "선물을 보냈습니다.");
                         initData();
                     }
 

@@ -58,8 +58,8 @@ public class WinnerReviewListAdapter extends ArrayAdapter {
 
         @BindView(R.id.txv_title)
         BaseTextView txvTitle;
-        @BindView(R.id.txv_user_id)
-        BaseTextView txvUserId;
+//        @BindView(R.id.txv_user_id)
+//        BaseTextView txvUserId;
         @BindView(R.id.txv_cost)
         BaseTextView txvMoney;
         @BindView(R.id.txv_ad_name)
@@ -90,7 +90,7 @@ public class WinnerReviewListAdapter extends ArrayAdapter {
             }
 
             txvTitle.setText(String.format("%d회차 당첨자 당첨 후기 ", review.round));
-            txvUserId.setText(review.user_id);
+//            txvUserId.setText(review.user_id);
             txvMoney.setText(String.format("당첨금액 : %s", Util.makeMoneyType(review.winning_money)));
 
             SpannableString strNo = new SpannableString("응모권번호 : " + adname + "-" + review.subscribe_number);

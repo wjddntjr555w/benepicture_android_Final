@@ -15,7 +15,7 @@ import java.lang.Override;
 public class SignOutActivity_ViewBinding extends BaseActivity_ViewBinding {
   private SignOutActivity target;
 
-  private View view2131296777;
+  private View view2131296776;
 
   private View view2131296751;
 
@@ -38,7 +38,7 @@ public class SignOutActivity_ViewBinding extends BaseActivity_ViewBinding {
     target.ui_edtPwd = Utils.findRequiredViewAsType(source, R.id.edt_pwd, "field 'ui_edtPwd'", BaseEditText.class);
     view = Utils.findRequiredView(source, R.id.txv_yes, "field 'ui_txvYes' and method 'OnClickYes'");
     target.ui_txvYes = Utils.castView(view, R.id.txv_yes, "field 'ui_txvYes'", BaseTextView.class);
-    view2131296777 = view;
+    view2131296776 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -82,8 +82,8 @@ public class SignOutActivity_ViewBinding extends BaseActivity_ViewBinding {
     target.ui_txvYes = null;
     target.ui_txvNo = null;
 
-    view2131296777.setOnClickListener(null);
-    view2131296777 = null;
+    view2131296776.setOnClickListener(null);
+    view2131296776 = null;
     view2131296751.setOnClickListener(null);
     view2131296751 = null;
     view2131296418.setOnClickListener(null);

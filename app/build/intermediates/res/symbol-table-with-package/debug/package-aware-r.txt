@@ -2360,7 +2360,6 @@ id txv_takemoney
 id txv_title
 id txv_user_id
 id txv_useterm
-id txv_usr_id
 id txv_usrname
 id txv_whole_reward
 id txv_yes

@@ -21,7 +21,6 @@ public class WinnerSubscribeListAdapter$NoticeItemViewHolder_ViewBinding impleme
     this.target = target;
 
     target.txvAdName = Utils.findRequiredViewAsType(source, R.id.txv_ad_name, "field 'txvAdName'", BaseTextView.class);
-    target.txvUsrId = Utils.findRequiredViewAsType(source, R.id.txv_usr_id, "field 'txvUsrId'", BaseTextView.class);
     target.txvSubscribeNo = Utils.findRequiredViewAsType(source, R.id.txv_subscribe_no, "field 'txvSubscribeNo'", BaseTextView.class);
     target.txvPhone = Utils.findRequiredViewAsType(source, R.id.txv_phone, "field 'txvPhone'", BaseTextView.class);
     target.txvCost = Utils.findRequiredViewAsType(source, R.id.txv_cost, "field 'txvCost'", BaseTextView.class);
@@ -36,7 +35,6 @@ public class WinnerSubscribeListAdapter$NoticeItemViewHolder_ViewBinding impleme
     this.target = null;
 
     target.txvAdName = null;
-    target.txvUsrId = null;
     target.txvSubscribeNo = null;
     target.txvPhone = null;
     target.txvCost = null;

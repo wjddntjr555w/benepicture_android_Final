@@ -1077,11 +1077,11 @@ public final class R {
         public static final int top = 0x7f0901bd;
         public static final int topPanel = 0x7f0901be;
         public static final int touch = 0x7f0901bf;
-        public static final int uniform = 0x7f09020b;
-        public static final int untilRelease = 0x7f09020d;
-        public static final int up = 0x7f09020e;
-        public static final int wave = 0x7f090225;
-        public static final int wrap_content = 0x7f09022a;
+        public static final int uniform = 0x7f09020a;
+        public static final int untilRelease = 0x7f09020c;
+        public static final int up = 0x7f09020d;
+        public static final int wave = 0x7f090224;
+        public static final int wrap_content = 0x7f090229;
     }
     public static final class integer {
         private integer() {}

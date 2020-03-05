@@ -24,7 +24,6 @@ public class WinnerReviewListAdapter$NoticeItemViewHolder_ViewBinding implements
 
     View view;
     target.txvTitle = Utils.findRequiredViewAsType(source, R.id.txv_title, "field 'txvTitle'", BaseTextView.class);
-    target.txvUserId = Utils.findRequiredViewAsType(source, R.id.txv_user_id, "field 'txvUserId'", BaseTextView.class);
     target.txvMoney = Utils.findRequiredViewAsType(source, R.id.txv_cost, "field 'txvMoney'", BaseTextView.class);
     target.txvAdName = Utils.findRequiredViewAsType(source, R.id.txv_ad_name, "field 'txvAdName'", BaseTextView.class);
     target.txvContent = Utils.findRequiredViewAsType(source, R.id.txv_content, "field 'txvContent'", BaseTextView.class);
@@ -46,7 +45,6 @@ public class WinnerReviewListAdapter$NoticeItemViewHolder_ViewBinding implements
     this.target = null;
 
     target.txvTitle = null;
-    target.txvUserId = null;
     target.txvMoney = null;
     target.txvAdName = null;
     target.txvContent = null;

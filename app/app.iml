@@ -190,5 +190,9 @@
     <orderEntry type="module" module-name="LibWKVideoPlayer" />
     <orderEntry type="module" module-name="LibAdvancedRecycler" />
     <orderEntry type="module" module-name="LibMaterial" />
+    <orderEntry type="module" module-name="LibViewpagerIndicator" />
+    <orderEntry type="module" module-name="LibWKVideoPlayer" />
+    <orderEntry type="module" module-name="LibAdvancedRecycler" />
+    <orderEntry type="module" module-name="LibMaterial" />
   </component>
 </module>

@@ -1211,13 +1211,13 @@ public final class R {
         public static final int tv_duration = 0x7f0901c8;
         public static final int tv_gallery_preview_title = 0x7f0901ca;
         public static final int tv_message = 0x7f0901cb;
-        public static final int uniform = 0x7f09020b;
-        public static final int unlabeled = 0x7f09020c;
-        public static final int up = 0x7f09020e;
-        public static final int view_offset_helper = 0x7f090218;
-        public static final int view_pager = 0x7f090219;
-        public static final int visible = 0x7f09021a;
-        public static final int wrap_content = 0x7f09022a;
+        public static final int uniform = 0x7f09020a;
+        public static final int unlabeled = 0x7f09020b;
+        public static final int up = 0x7f09020d;
+        public static final int view_offset_helper = 0x7f090217;
+        public static final int view_pager = 0x7f090218;
+        public static final int visible = 0x7f090219;
+        public static final int wrap_content = 0x7f090229;
     }
     public static final class integer {
         private integer() {}

@@ -53,8 +53,8 @@ public class WinnerSubscribeListAdapter extends ArrayAdapter {
 
         @BindView(R.id.txv_ad_name)
         BaseTextView txvAdName;
-        @BindView(R.id.txv_usr_id)
-        BaseTextView txvUsrId;
+//        @BindView(R.id.txv_usr_id)
+//        BaseTextView txvUsrId;
         @BindView(R.id.txv_subscribe_no)
         BaseTextView txvSubscribeNo;
         @BindView(R.id.txv_phone)
@@ -77,7 +77,7 @@ public class WinnerSubscribeListAdapter extends ArrayAdapter {
 
             if (history != null) {
                 txvAdName.setText(String.format("%s 응모권", history.ad_name));
-                txvUsrId.setText(Util.convertHiddenString(history.usr_id));
+//                txvUsrId.setText(Util.convertHiddenString(history.usr_id));
                 txvSubscribeNo.setText(String.format("응모권번호 : %s %s", history.ad_name, history.no));
                 txvPhone.setText(String.format("휴대폰 뒷자리 : %s", history.phone));
                 txvCost.setText(String.format("당첨 : %s원", Util.makeMoneyType(history.cost)));

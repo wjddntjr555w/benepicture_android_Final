@@ -91,14 +91,14 @@ public final class R {
         public static final int tv_name_item = 0x7f0901cc;
         public static final int txt_dlna_exit = 0x7f0901cd;
         public static final int txt_dlna_title = 0x7f0901ce;
-        public static final int video_close_view = 0x7f090210;
-        public static final int video_format_switcher = 0x7f090211;
-        public static final int video_inner_container = 0x7f090212;
-        public static final int video_share_tv_view = 0x7f090213;
-        public static final int video_src_switcher = 0x7f090214;
-        public static final int video_view = 0x7f090215;
-        public static final int view_menu = 0x7f090216;
-        public static final int view_menu_placeholder = 0x7f090217;
+        public static final int video_close_view = 0x7f09020f;
+        public static final int video_format_switcher = 0x7f090210;
+        public static final int video_inner_container = 0x7f090211;
+        public static final int video_share_tv_view = 0x7f090212;
+        public static final int video_src_switcher = 0x7f090213;
+        public static final int video_view = 0x7f090214;
+        public static final int view_menu = 0x7f090215;
+        public static final int view_menu_placeholder = 0x7f090216;
     }
     public static final class layout {
         private layout() {}

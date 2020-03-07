@@ -691,6 +691,8 @@ public class MainActivity extends BaseActivity {
     }
 
     void showAnswerPopup() {
+
+//        reqAdComplete(0);
 //        String strTitle = "[" + _adver.name + "]" + "에서 당신에게 응모권을 선물하였습니다. ";
 //
 //        Intent showConfirm = new Intent(MainActivity.this, ConfirmDialogActivity.class);
@@ -777,20 +779,61 @@ public class MainActivity extends BaseActivity {
                     try {
                         reqAdComplete(1);
                         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(_adver.url)));
+
+                        getNewAdver();
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
 
                 } else {
                     reqAdComplete(0);
+
+                    getNewAdver();
                 }
 
                 break;
 
             case 2048:
                 if (resultCode == RESULT_OK) {
+
+//                    Handler mHandler = null;
+
+//                    mHandler = new Handler();
+//
+//                    Thread t = new Thread(new Runnable(){
+//                        @Override
+//                        public void run() {
+//                            showAnswerPopup();
+//                            mHandler.post(new Runnable(){
+//                                @Override
+//                                public void run() {
+//                                    getNewAdver();
+//                                }
+//                            });
+//                        }
+//                    });
+//                    t.start();
+
+
                     showAnswerPopup();
-                    getNewAdver();
+
+
+//                    Handler delayHandler = new Handler();
+//
+//                    delayHandler.post(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            showAnswerPopup();
+//                        }
+//                    });
+//
+//                    delayHandler.postDelayed(new Runnable() {
+//                        @Override
+//                        public void run() {
+////                            getNewAdver();
+//
+//                        }
+//                    }, 3000);
                 } else {
                     Toaster.showShort(MainActivity.this, "광고가 중단되어 응모권이 적립되지 않았습니다.");
                 }

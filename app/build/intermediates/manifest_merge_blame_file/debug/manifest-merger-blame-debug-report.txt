@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.bene.pictures"
-4    android:versionCode="11"
+4    android:versionCode="13"
 5    android:versionName="1.0.4" >
 6
 7    <uses-sdk
@@ -61,17 +61,17 @@
 27-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:21:19-67
 28
 29    <uses-permission android:name="android.permission.WAKE_LOCK" />
-29-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:24:5-68
-29-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:24:22-65
+29-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:24:22-65
 30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-30-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:26:5-110
-30-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:26:22-107
+30-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:26:5-110
+30-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:26:22-107
 31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-31-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
-31-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+31-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
 32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-32-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:27:5-71
-32-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:27:22-68
+32-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:27:5-71
+32-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:27:22-68
 33
 34    <application
 34-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:23:5-181:19
@@ -80,7 +80,7 @@
 36        android:allowBackup="true"
 36-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:25:9-35
 37        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-37-->[com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/fdd44024b3dcb3a84f761a142f3e7bd7/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+37-->[com.android.support:support-compat:28.0.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c87c2d37660547f49dc282b8f914db3c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 38        android:debuggable="true"
 39        android:icon="@mipmap/ic_launcher"
 39-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:26:9-43
@@ -92,565 +92,564 @@
 42-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:29:9-54
 43        android:supportsRtl="true"
 43-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:30:9-35
-44        android:testOnly="true"
-45        android:theme="@style/AppTheme"
-45-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:31:9-40
-46        android:usesCleartextTraffic="true" >
-46-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:32:9-44
-47        <activity android:name="com.bene.pictures.ui.main.takereward.RewardPickerActivity" />
-47-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:33:9-86
-47-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:33:19-74
-48
-49        <uses-library
-49-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:35:9-37:40
-50            android:name="org.apache.http.legacy"
-50-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:36:13-50
-51            android:required="false" />
-51-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:37:13-37
-52
-53        <activity android:name="com.bene.pictures.ui.splash.SplashActivity" >
-53-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:39:9-46:20
-53-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:39:19-59
-54            <intent-filter>
-54-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:40:13-44:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:41:17-69
-55-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:41:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:43:17-77
-57-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:43:27-74
-58            </intent-filter>
-59        </activity>
-60
-61        <!-- 카카오톡 관련 추가 -->
-62        <meta-data
-62-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:49:9-51:53
-63            android:name="com.kakao.sdk.AppKey"
-63-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:50:13-48
-64            android:value="@string/kakao_app_key" />
-64-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:51:13-50
-65
-66        <activity
-66-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:52:9-55:73
-67            android:name="com.bene.pictures.ui.login.LoginActivity"
-67-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:53:13-51
-68            android:screenOrientation="portrait"
-68-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:54:13-49
-69            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-69-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:55:13-70
-70        <activity
-70-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:56:9-59:73
-71            android:name="com.bene.pictures.ui.join.JoinAgreeActivity"
-71-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:57:13-54
-72            android:screenOrientation="portrait"
-72-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:58:13-49
-73            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-73-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:59:13-70
-74        <activity
-74-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:60:9-63:73
-75            android:name="com.bene.pictures.ui.join.JoinRegActivity"
-75-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:61:13-52
-76            android:screenOrientation="portrait"
-76-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:62:13-49
-77            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-77-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:63:13-70
-78        <activity
-78-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:64:9-67:73
-79            android:name="com.bene.pictures.ui.login.IdFindActivity"
-79-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:65:13-52
-80            android:screenOrientation="portrait"
-80-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:66:13-49
-81            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-81-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:67:13-70
-82        <activity
-82-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:68:9-71:73
-83            android:name="com.bene.pictures.ui.login.PwdFindActivity"
-83-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:69:13-53
-84            android:screenOrientation="portrait"
-84-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:70:13-49
-85            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-85-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:71:13-70
-86        <activity
-86-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:72:9-75:73
-87            android:name="com.bene.pictures.ui.login.PwdChangeActivity"
-87-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:73:13-55
-88            android:screenOrientation="portrait"
-88-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:74:13-49
-89            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-89-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:75:13-70
-90        <activity
-90-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:76:9-79:73
-91            android:name="com.bene.pictures.ui.main.MainActivity"
-91-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:77:13-49
-92            android:screenOrientation="portrait"
-92-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:78:13-49
-93            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-93-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:79:13-70
-94        <activity
-94-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:80:9-82:59
-95            android:name="com.bene.pictures.ui.dialog.ConfirmDialogActivity"
-95-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:81:13-60
-96            android:theme="@style/AppTheme.Translucent" />
-96-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:82:13-56
-97        <activity
-97-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:83:9-85:59
-98            android:name="com.bene.pictures.ui.dialog.ConfirmDialog1Activity"
-98-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:84:13-61
-99            android:theme="@style/AppTheme.Translucent" />
-99-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:85:13-56
-100        <activity
-100-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:86:9-89:73
-101            android:name="com.bene.pictures.ui.dialog.SignOutActivity"
-101-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:87:13-54
-102            android:theme="@style/AppTheme.Translucent"
-102-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:88:13-56
-103            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-103-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:89:13-70
-104        <activity
-104-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:90:9-92:52
-105            android:name="com.bene.pictures.ui.main.adver.VideoAdverViewActivity"
-105-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:91:13-65
-106            android:screenOrientation="portrait" />
-106-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:92:13-49
-107        <activity
-107-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:93:9-96:73
-108            android:name="com.bene.pictures.ui.setting.AppAlarmSettingActivity"
-108-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:94:13-63
-109            android:screenOrientation="portrait"
-109-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:95:13-49
-110            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-110-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:96:13-70
-111        <activity
-111-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:97:9-100:73
-112            android:name="com.bene.pictures.ui.setting.ProfileSettingActivity"
-112-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:98:13-62
-113            android:screenOrientation="portrait"
-113-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:99:13-49
-114            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-114-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:100:13-70
-115        <activity
-115-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:101:9-104:73
-116            android:name="com.bene.pictures.ui.main.msgbox.MsgBoxActivity"
-116-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:102:13-58
-117            android:screenOrientation="portrait"
-117-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:103:13-49
-118            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-118-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:104:13-70
-119        <activity
-119-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:105:9-119:20
-120            android:name="com.bene.pictures.ui.main.friendlist.FriendListActivity"
-120-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:106:13-66
-121            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
-121-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:107:13-70
-122
-123            <!-- 카카오톡 링크 관련 추가 -->
-124            <intent-filter>
-124-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:109:13-118:29
-125                <action android:name="android.intent.action.VIEW" />
-125-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:110:17-69
-125-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:110:25-66
-126
-127                <category android:name="android.intent.category.DEFAULT" />
-127-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:112:17-76
-127-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:112:27-73
-128                <category android:name="android.intent.category.BROWSABLE" />
-128-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:113:17-78
-128-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:113:27-75
-129
-130                <data
-130-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:115:17-117:61
-131                    android:host="@string/kakaolink_host"
-131-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:116:21-58
-132                    android:scheme="@string/kakao_scheme" />
-132-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:117:21-58
-133            </intent-filter>
-134        </activity>
-135        <activity
-135-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:120:9-122:52
-136            android:name="com.bene.pictures.ui.main.mypage.MypageActivity"
-136-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:121:13-58
-137            android:screenOrientation="portrait" />
-137-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:122:13-49
-138        <activity
-138-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:123:9-125:59
-139            android:name="com.bene.pictures.ui.main.msgbox.MsgDetailActivity"
-139-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:124:13-61
-140            android:theme="@style/AppTheme.Translucent" />
-140-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:125:13-56
-141        <activity
-141-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:126:9-128:59
-142            android:name="com.bene.pictures.ui.main.takereward.ReviewDetailActivity"
-142-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:127:13-68
-143            android:theme="@style/AppTheme.Translucent" />
-143-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:128:13-56
-144        <activity
-144-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:129:9-131:73
-145            android:name="com.bene.pictures.ui.main.takereward.TakeRewardActivity"
-145-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:130:13-66
-146            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-146-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:131:13-70
-147        <activity
-147-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:132:9-134:59
-148            android:name="com.bene.pictures.ui.main.mypage.SubscribeInfoDetailActivity"
-148-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:133:13-71
-149            android:theme="@style/AppTheme.Translucent" />
-149-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:134:13-56
-150        <activity
-150-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:135:9-137:52
-151            android:name="com.bene.pictures.ui.main.adver.SwitchingPuzzleAdverActivity"
-151-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:136:13-71
-152            android:screenOrientation="portrait" />
-152-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:137:13-49
-153        <activity
-153-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:138:9-140:52
-154            android:name="com.bene.pictures.ui.main.adver.ParingPuzzelAdverActivity"
-154-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:139:13-68
-155            android:screenOrientation="portrait" />
-155-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:140:13-49
-156        <activity
-156-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:141:9-144:73
-157            android:name="com.bene.pictures.ui.main.regadver.RegAdverActivity"
-157-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:142:13-62
-158            android:screenOrientation="portrait"
-158-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:143:13-49
-159            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-159-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:144:13-70
-160        <activity
-160-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:145:9-147:52
-161            android:name="com.bene.pictures.ui.main.winnner.WinnerCheckActivity"
-161-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:146:13-64
-162            android:screenOrientation="portrait" />
-162-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:147:13-49
-163        <activity
-163-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:148:9-151:73
-164            android:name="com.bene.pictures.ui.dialog.UserCheckActivity"
-164-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:149:13-56
-165            android:theme="@style/AppTheme.Translucent"
-165-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:150:13-56
-166            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-166-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:151:13-70
-167        <activity
-167-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:152:9-155:59
-168            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-168-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:153:13-76
-169            android:screenOrientation="portrait"
-169-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:154:13-49
-170            android:theme="@style/Base.Theme.AppCompat" />
-170-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:155:13-56
-171
-172        <!-- ####################[START FCB_receiver] #################### -->
-173        <service android:name="com.bene.pictures.fcm.FirebaseMessagingService" >
-173-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:158:9-162:19
-173-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:158:18-62
-174            <intent-filter>
-174-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:159:13-161:29
-175                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-175-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:17-78
-175-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:25-75
-176            </intent-filter>
-177        </service>
-178        <service android:name="com.bene.pictures.fcm.FirebaseInstanceIDService" >
-178-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:163:9-167:19
-178-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:163:18-63
-179            <intent-filter>
-179-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:164:13-166:29
-180                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-180-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:17-80
-180-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:25-77
-181            </intent-filter>
-182        </service>
-183
-184        <provider
-184-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:169:9-177:20
-185            android:name="android.support.v4.content.FileProvider"
-185-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:170:13-67
-186            android:authorities="com.bene.pictures.provider"
-186-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:171:13-61
-187            android:exported="false"
-187-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:172:13-37
-188            android:grantUriPermissions="true" >
-188-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:173:13-47
-189            <meta-data
-189-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
-190                android:name="android.support.FILE_PROVIDER_PATHS"
-190-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
-191                android:resource="@xml/file_provider_path" />
-191-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
-192        </provider>
-193
-194        <!--
-195             FirebaseMessagingService performs security checks at runtime,
-196             no need for explicit permissions despite exported="true"
-197        -->
-198        <service
-198-->[com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
-199            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-199-->[com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
-200            android:exported="true" >
-200-->[com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/025ea5432235bd3b8578307347b183d8/firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
-201            <intent-filter android:priority="-500" >
-201-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:159:13-161:29
-202                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-202-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:17-78
-202-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:25-75
-203            </intent-filter>
-204        </service>
-205        <service
-205-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:27:9-31:19
-206            android:name="com.google.firebase.components.ComponentDiscoveryService"
-206-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:27:18-89
-207            android:exported="false" >
-207-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
-208            <meta-data
-208-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:28:13-30:85
-209                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-209-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:29:17-139
-210                android:value="com.google.firebase.components.ComponentRegistrar" />
-210-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/2ab3ca6b40b2eaf268216f9f3af938ad/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:30:17-82
-211            <meta-data
-211-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
-212                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-212-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
-213                android:value="com.google.firebase.components.ComponentRegistrar" />
-213-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
-214        </service>
-215
-216        <receiver
-216-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:29:9-33:20
-217            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-217-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:30:13-85
-218            android:enabled="true"
-218-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:31:13-35
-219            android:exported="false" >
-219-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:32:13-37
-220        </receiver>
-221        <receiver
-221-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:34:9-42:20
-222            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-222-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:35:13-100
-223            android:enabled="true"
-223-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:36:13-35
-224            android:exported="true"
-224-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:37:13-36
-225            android:permission="android.permission.INSTALL_PACKAGES" >
-225-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:38:13-69
-226            <intent-filter>
-226-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:39:13-41:29
-227                <action android:name="com.android.vending.INSTALL_REFERRER" />
-227-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:40:17-79
-227-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:40:25-76
-228            </intent-filter>
-229        </receiver>
-230
-231        <service
-231-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:44:9-47:40
-232            android:name="com.google.android.gms.measurement.AppMeasurementService"
-232-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:45:13-84
-233            android:enabled="true"
-233-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:46:13-35
-234            android:exported="false" />
-234-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:47:13-37
-235        <service
-235-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:48:9-52:72
-236            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-236-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:49:13-87
-237            android:enabled="true"
-237-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:50:13-35
-238            android:exported="false"
-238-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:51:13-37
-239            android:permission="android.permission.BIND_JOB_SERVICE" />
-239-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/0ee97e32601cc97b1f5b31e6058c4577/firebase-analytics-16.0.6/AndroidManifest.xml:52:13-69
-240
-241        <receiver
-241-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
-242            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-242-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
-243            android:exported="true"
-243-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
-244            android:permission="com.google.android.c2dm.permission.SEND" >
-244-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
-245            <intent-filter>
-245-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
-246                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-246-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
-246-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
-247            </intent-filter>
-248        </receiver>
-249        <!--
-250             FirebaseInstanceIdService performs security checks at runtime,
-251             no need for explicit permissions despite exported="true"
-252        -->
-253        <service
-253-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
-254            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-254-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
-255            android:exported="true" >
-255-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1dbaf71e6f7acd34362db77c2143f23c/firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
-256            <intent-filter android:priority="-500" >
-256-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:164:13-166:29
-257                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-257-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:17-80
-257-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:25-77
-258            </intent-filter>
-259        </service>
-260
-261        <provider
-261-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
-262            android:name="com.google.firebase.provider.FirebaseInitProvider"
-262-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:11:13-77
-263            android:authorities="com.bene.pictures.firebaseinitprovider"
-263-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:12:13-72
-264            android:exported="false"
-264-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:13:13-37
-265            android:initOrder="100" />
-265-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/04bb80e4f7420795c3a061d0b506881c/firebase-common-16.0.3/AndroidManifest.xml:14:13-36
-266
-267        <activity
-267-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-268            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-268-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-269            android:exported="false"
-269-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-270            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-270-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/15cb8c851cbca8b489de9220dfb4a1a1/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-271
-272        <meta-data
-272-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
-273            android:name="com.google.android.gms.version"
-273-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
-274            android:value="@integer/google_play_services_version" />
-274-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/c2a8ed35c6165c5664e303c819757bc1/play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
-275
-276        <activity
-276-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:30:9-34:75
-277            android:name="com.yanzhenjie.album.app.album.AlbumActivity"
-277-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:31:13-72
-278            android:configChanges="orientation|screenSize"
-278-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:32:13-59
-279            android:theme="@style/Album.Theme.Activity"
-279-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:33:13-56
-280            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
-280-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:34:13-72
-281        <activity
-281-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:35:9-39:75
-282            android:name="com.yanzhenjie.album.app.album.GalleryActivity"
-282-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:36:13-74
-283            android:configChanges="orientation|screenSize"
-283-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:37:13-59
-284            android:theme="@style/Album.Theme.Activity"
-284-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:38:13-56
-285            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
-285-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:39:13-72
-286        <activity
-286-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:40:9-44:75
-287            android:name="com.yanzhenjie.album.app.album.NullActivity"
-287-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:41:13-71
-288            android:configChanges="orientation|screenSize"
-288-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:42:13-59
-289            android:theme="@style/Album.Theme.Activity"
-289-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:43:13-56
-290            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
-290-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:44:13-72
-291        <activity
-291-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:45:9-49:75
-292            android:name="com.yanzhenjie.album.app.gallery.GalleryActivity"
-292-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:46:13-76
-293            android:configChanges="orientation|screenSize"
-293-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:47:13-59
-294            android:theme="@style/Album.Theme.Activity"
-294-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:48:13-56
-295            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
-295-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:49:13-72
-296        <activity
-296-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:50:9-54:75
-297            android:name="com.yanzhenjie.album.app.gallery.GalleryAlbumActivity"
-297-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:51:13-81
-298            android:configChanges="orientation|screenSize"
-298-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:52:13-59
-299            android:theme="@style/Album.Theme.Activity"
-299-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:53:13-56
-300            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
-300-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:54:13-72
-301        <activity
-301-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:55:9-59:75
-302            android:name="com.yanzhenjie.album.app.camera.CameraActivity"
-302-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:56:13-74
-303            android:configChanges="orientation|screenSize"
-303-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:57:13-59
-304            android:theme="@style/Album.Theme.Activity.Transparent"
-304-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:58:13-68
-305            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
-305-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:59:13-72
-306
-307        <provider
-307-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:61:9-70:20
-308            android:name="com.yanzhenjie.album.provider.CameraFileProvider"
-308-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:62:13-76
-309            android:authorities="com.bene.pictures.app.file.provider"
-309-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:63:13-69
-310            android:exported="false"
-310-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:64:13-37
-311            android:grantUriPermissions="true"
-311-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:65:13-47
-312            android:multiprocess="true" >
-312-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a9e63f404fdb49fdf80d915b361350ab/album-2.1.3/AndroidManifest.xml:66:13-40
-313            <meta-data
-313-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
-314                android:name="android.support.FILE_PROVIDER_PATHS"
-314-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
-315                android:resource="@xml/album_camera_provider" />
-315-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
-316        </provider>
-317
-318        <activity
-318-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:10:9-15:75
-319            android:name="com.blankj.utilcode.util.PermissionUtils$PermissionActivity"
-319-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:11:13-87
-320            android:configChanges="orientation|keyboardHidden|screenSize"
-320-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:12:13-74
-321            android:multiprocess="true"
-321-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:13:13-40
-322            android:theme="@style/ActivityTranslucent"
-322-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:14:13-55
-323            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-323-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:15:13-72
-324
-325        <provider
-325-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:17:9-26:20
-326            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
-326-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:18:13-80
-327            android:authorities="com.bene.pictures.utilcode.provider"
-327-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:19:13-69
-328            android:exported="false"
-328-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:20:13-37
-329            android:grantUriPermissions="true"
-329-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:21:13-47
-330            android:multiprocess="true" >
-330-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/de9c5458ebd8e839ce2b2f5cd4c6fead/utilcode-1.22.1/AndroidManifest.xml:22:13-40
-331            <meta-data
-331-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
-332                android:name="android.support.FILE_PROVIDER_PATHS"
-332-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
-333                android:resource="@xml/util_code_provider_paths" />
-333-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
-334        </provider>
-335
-336        <activity
-336-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:12:9-19:20
-337            android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity"
-337-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:13:13-86
-338            android:configChanges="orientation|screenSize"
-338-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:14:13-59
-339            android:exported="false"
-339-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:15:13-37
-340            android:label="@string/com_kakao_login_button"
-340-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:16:13-59
-341            android:launchMode="singleTop"
-341-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:17:13-43
-342            android:windowSoftInputMode="adjustResize" >
-342-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d95b4d762e26be6ede47d06b232b6380/auth-1.20.0/AndroidManifest.xml:18:13-55
-343        </activity>
-344    </application>
-345
-346</manifest>
+44        android:theme="@style/AppTheme"
+44-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:31:9-40
+45        android:usesCleartextTraffic="true" >
+45-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:32:9-44
+46        <activity android:name="com.bene.pictures.ui.main.takereward.RewardPickerActivity" />
+46-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:33:9-86
+46-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:33:19-74
+47
+48        <uses-library
+48-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:35:9-37:40
+49            android:name="org.apache.http.legacy"
+49-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:36:13-50
+50            android:required="false" />
+50-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:37:13-37
+51
+52        <activity android:name="com.bene.pictures.ui.splash.SplashActivity" >
+52-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:39:9-46:20
+52-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:39:19-59
+53            <intent-filter>
+53-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:40:13-44:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:41:17-69
+54-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:41:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:43:17-77
+56-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:43:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <!-- 카카오톡 관련 추가 -->
+61        <meta-data
+61-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:49:9-51:53
+62            android:name="com.kakao.sdk.AppKey"
+62-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:50:13-48
+63            android:value="@string/kakao_app_key" />
+63-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:51:13-50
+64
+65        <activity
+65-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:52:9-55:73
+66            android:name="com.bene.pictures.ui.login.LoginActivity"
+66-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:53:13-51
+67            android:screenOrientation="portrait"
+67-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:54:13-49
+68            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+68-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:55:13-70
+69        <activity
+69-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:56:9-59:73
+70            android:name="com.bene.pictures.ui.join.JoinAgreeActivity"
+70-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:57:13-54
+71            android:screenOrientation="portrait"
+71-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:58:13-49
+72            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+72-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:59:13-70
+73        <activity
+73-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:60:9-63:73
+74            android:name="com.bene.pictures.ui.join.JoinRegActivity"
+74-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:61:13-52
+75            android:screenOrientation="portrait"
+75-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:62:13-49
+76            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+76-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:63:13-70
+77        <activity
+77-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:64:9-67:73
+78            android:name="com.bene.pictures.ui.login.IdFindActivity"
+78-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:65:13-52
+79            android:screenOrientation="portrait"
+79-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:66:13-49
+80            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+80-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:67:13-70
+81        <activity
+81-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:68:9-71:73
+82            android:name="com.bene.pictures.ui.login.PwdFindActivity"
+82-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:69:13-53
+83            android:screenOrientation="portrait"
+83-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:70:13-49
+84            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+84-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:71:13-70
+85        <activity
+85-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:72:9-75:73
+86            android:name="com.bene.pictures.ui.login.PwdChangeActivity"
+86-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:73:13-55
+87            android:screenOrientation="portrait"
+87-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:74:13-49
+88            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+88-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:75:13-70
+89        <activity
+89-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:76:9-79:73
+90            android:name="com.bene.pictures.ui.main.MainActivity"
+90-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:77:13-49
+91            android:screenOrientation="portrait"
+91-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:78:13-49
+92            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+92-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:79:13-70
+93        <activity
+93-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:80:9-82:59
+94            android:name="com.bene.pictures.ui.dialog.ConfirmDialogActivity"
+94-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:81:13-60
+95            android:theme="@style/AppTheme.Translucent" />
+95-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:82:13-56
+96        <activity
+96-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:83:9-85:59
+97            android:name="com.bene.pictures.ui.dialog.ConfirmDialog1Activity"
+97-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:84:13-61
+98            android:theme="@style/AppTheme.Translucent" />
+98-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:85:13-56
+99        <activity
+99-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:86:9-89:73
+100            android:name="com.bene.pictures.ui.dialog.SignOutActivity"
+100-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:87:13-54
+101            android:theme="@style/AppTheme.Translucent"
+101-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:88:13-56
+102            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+102-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:89:13-70
+103        <activity
+103-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:90:9-92:52
+104            android:name="com.bene.pictures.ui.main.adver.VideoAdverViewActivity"
+104-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:91:13-65
+105            android:screenOrientation="portrait" />
+105-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:92:13-49
+106        <activity
+106-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:93:9-96:73
+107            android:name="com.bene.pictures.ui.setting.AppAlarmSettingActivity"
+107-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:94:13-63
+108            android:screenOrientation="portrait"
+108-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:95:13-49
+109            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+109-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:96:13-70
+110        <activity
+110-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:97:9-100:73
+111            android:name="com.bene.pictures.ui.setting.ProfileSettingActivity"
+111-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:98:13-62
+112            android:screenOrientation="portrait"
+112-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:99:13-49
+113            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+113-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:100:13-70
+114        <activity
+114-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:101:9-104:73
+115            android:name="com.bene.pictures.ui.main.msgbox.MsgBoxActivity"
+115-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:102:13-58
+116            android:screenOrientation="portrait"
+116-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:103:13-49
+117            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+117-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:104:13-70
+118        <activity
+118-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:105:9-119:20
+119            android:name="com.bene.pictures.ui.main.friendlist.FriendListActivity"
+119-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:106:13-66
+120            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+120-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:107:13-70
+121
+122            <!-- 카카오톡 링크 관련 추가 -->
+123            <intent-filter>
+123-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:109:13-118:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:110:17-69
+124-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:110:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:112:17-76
+126-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:112:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:113:17-78
+127-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:113:27-75
+128
+129                <data
+129-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:115:17-117:61
+130                    android:host="@string/kakaolink_host"
+130-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:116:21-58
+131                    android:scheme="@string/kakao_scheme" />
+131-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:117:21-58
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:120:9-122:52
+135            android:name="com.bene.pictures.ui.main.mypage.MypageActivity"
+135-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:121:13-58
+136            android:screenOrientation="portrait" />
+136-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:122:13-49
+137        <activity
+137-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:123:9-125:59
+138            android:name="com.bene.pictures.ui.main.msgbox.MsgDetailActivity"
+138-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:124:13-61
+139            android:theme="@style/AppTheme.Translucent" />
+139-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:125:13-56
+140        <activity
+140-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:126:9-128:59
+141            android:name="com.bene.pictures.ui.main.takereward.ReviewDetailActivity"
+141-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:127:13-68
+142            android:theme="@style/AppTheme.Translucent" />
+142-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:128:13-56
+143        <activity
+143-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:129:9-131:73
+144            android:name="com.bene.pictures.ui.main.takereward.TakeRewardActivity"
+144-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:130:13-66
+145            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+145-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:131:13-70
+146        <activity
+146-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:132:9-134:59
+147            android:name="com.bene.pictures.ui.main.mypage.SubscribeInfoDetailActivity"
+147-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:133:13-71
+148            android:theme="@style/AppTheme.Translucent" />
+148-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:134:13-56
+149        <activity
+149-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:135:9-137:52
+150            android:name="com.bene.pictures.ui.main.adver.SwitchingPuzzleAdverActivity"
+150-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:136:13-71
+151            android:screenOrientation="portrait" />
+151-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:137:13-49
+152        <activity
+152-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:138:9-140:52
+153            android:name="com.bene.pictures.ui.main.adver.ParingPuzzelAdverActivity"
+153-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:139:13-68
+154            android:screenOrientation="portrait" />
+154-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:140:13-49
+155        <activity
+155-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:141:9-144:73
+156            android:name="com.bene.pictures.ui.main.regadver.RegAdverActivity"
+156-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:142:13-62
+157            android:screenOrientation="portrait"
+157-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:143:13-49
+158            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+158-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:144:13-70
+159        <activity
+159-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:145:9-147:52
+160            android:name="com.bene.pictures.ui.main.winnner.WinnerCheckActivity"
+160-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:146:13-64
+161            android:screenOrientation="portrait" />
+161-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:147:13-49
+162        <activity
+162-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:148:9-151:73
+163            android:name="com.bene.pictures.ui.dialog.UserCheckActivity"
+163-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:149:13-56
+164            android:theme="@style/AppTheme.Translucent"
+164-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:150:13-56
+165            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+165-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:151:13-70
+166        <activity
+166-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:152:9-155:59
+167            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+167-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:153:13-76
+168            android:screenOrientation="portrait"
+168-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:154:13-49
+169            android:theme="@style/Base.Theme.AppCompat" />
+169-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:155:13-56
+170
+171        <!-- ####################[START FCB_receiver] #################### -->
+172        <service android:name="com.bene.pictures.fcm.FirebaseMessagingService" >
+172-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:158:9-162:19
+172-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:158:18-62
+173            <intent-filter>
+173-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:159:13-161:29
+174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+174-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:17-78
+174-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:25-75
+175            </intent-filter>
+176        </service>
+177        <service android:name="com.bene.pictures.fcm.FirebaseInstanceIDService" >
+177-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:163:9-167:19
+177-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:163:18-63
+178            <intent-filter>
+178-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:164:13-166:29
+179                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+179-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:17-80
+179-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:25-77
+180            </intent-filter>
+181        </service>
+182
+183        <provider
+183-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:169:9-177:20
+184            android:name="android.support.v4.content.FileProvider"
+184-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:170:13-67
+185            android:authorities="com.bene.pictures.provider"
+185-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:171:13-61
+186            android:exported="false"
+186-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:172:13-37
+187            android:grantUriPermissions="true" >
+187-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:173:13-47
+188            <meta-data
+188-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
+189                android:name="android.support.FILE_PROVIDER_PATHS"
+189-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
+190                android:resource="@xml/file_provider_path" />
+190-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
+191        </provider>
+192
+193        <!--
+194             FirebaseMessagingService performs security checks at runtime,
+195             no need for explicit permissions despite exported="true"
+196        -->
+197        <service
+197-->[com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4f75c3be7609f124e1c942e9a919ce88/firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+198            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+198-->[com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4f75c3be7609f124e1c942e9a919ce88/firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+199            android:exported="true" >
+199-->[com.google.firebase:firebase-messaging:17.3.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/4f75c3be7609f124e1c942e9a919ce88/firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+200            <intent-filter android:priority="-500" >
+200-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:159:13-161:29
+201                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+201-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:17-78
+201-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:160:25-75
+202            </intent-filter>
+203        </service>
+204        <service
+204-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:27:9-31:19
+205            android:name="com.google.firebase.components.ComponentDiscoveryService"
+205-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:27:18-89
+206            android:exported="false" >
+206-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
+207            <meta-data
+207-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:28:13-30:85
+208                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+208-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:29:17-139
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a980f5d94ca6276fa39a35cbe863294d/firebase-measurement-connector-impl-17.0.4/AndroidManifest.xml:30:17-82
+210            <meta-data
+210-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+211                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+211-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+213        </service>
+214
+215        <receiver
+215-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:29:9-33:20
+216            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+216-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:30:13-85
+217            android:enabled="true"
+217-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:31:13-35
+218            android:exported="false" >
+218-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:32:13-37
+219        </receiver>
+220        <receiver
+220-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:34:9-42:20
+221            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+221-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:35:13-100
+222            android:enabled="true"
+222-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:36:13-35
+223            android:exported="true"
+223-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:37:13-36
+224            android:permission="android.permission.INSTALL_PACKAGES" >
+224-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:38:13-69
+225            <intent-filter>
+225-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:39:13-41:29
+226                <action android:name="com.android.vending.INSTALL_REFERRER" />
+226-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:40:17-79
+226-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:40:25-76
+227            </intent-filter>
+228        </receiver>
+229
+230        <service
+230-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:44:9-47:40
+231            android:name="com.google.android.gms.measurement.AppMeasurementService"
+231-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:45:13-84
+232            android:enabled="true"
+232-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:46:13-35
+233            android:exported="false" />
+233-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:47:13-37
+234        <service
+234-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:48:9-52:72
+235            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+235-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:49:13-87
+236            android:enabled="true"
+236-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:50:13-35
+237            android:exported="false"
+237-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:51:13-37
+238            android:permission="android.permission.BIND_JOB_SERVICE" />
+238-->[com.google.firebase:firebase-analytics:16.0.6] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/eb1e101ee0448410a0c04e1e36a4ba69/firebase-analytics-16.0.6/AndroidManifest.xml:52:13-69
+239
+240        <receiver
+240-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+241            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+241-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+242            android:exported="true"
+242-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+243            android:permission="com.google.android.c2dm.permission.SEND" >
+243-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+244            <intent-filter>
+244-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+245                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+245-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+245-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+246            </intent-filter>
+247        </receiver>
+248        <!--
+249             FirebaseInstanceIdService performs security checks at runtime,
+250             no need for explicit permissions despite exported="true"
+251        -->
+252        <service
+252-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+253            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+253-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+254            android:exported="true" >
+254-->[com.google.firebase:firebase-iid:17.0.4] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/1f4678de3be2cbf9cbae92138ad71d84/firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+255            <intent-filter android:priority="-500" >
+255-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:164:13-166:29
+256                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+256-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:17-80
+256-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:165:25-77
+257            </intent-filter>
+258        </service>
+259
+260        <provider
+260-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/905a478e71d7bca44ecdf6b1b5413e14/firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+261            android:name="com.google.firebase.provider.FirebaseInitProvider"
+261-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/905a478e71d7bca44ecdf6b1b5413e14/firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+262            android:authorities="com.bene.pictures.firebaseinitprovider"
+262-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/905a478e71d7bca44ecdf6b1b5413e14/firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+263            android:exported="false"
+263-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/905a478e71d7bca44ecdf6b1b5413e14/firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+264            android:initOrder="100" />
+264-->[com.google.firebase:firebase-common:16.0.3] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/905a478e71d7bca44ecdf6b1b5413e14/firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+265
+266        <activity
+266-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a3d1d33adda4d7ccbb05c111bc45664b/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+267            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+267-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a3d1d33adda4d7ccbb05c111bc45664b/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+268            android:exported="false"
+268-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a3d1d33adda4d7ccbb05c111bc45664b/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+269            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+269-->[com.google.android.gms:play-services-base:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/a3d1d33adda4d7ccbb05c111bc45664b/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+270
+271        <meta-data
+271-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3f98c0d658e8a22ece5e57814967217/play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+272            android:name="com.google.android.gms.version"
+272-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3f98c0d658e8a22ece5e57814967217/play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+273            android:value="@integer/google_play_services_version" />
+273-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/d3f98c0d658e8a22ece5e57814967217/play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+274
+275        <activity
+275-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:30:9-34:75
+276            android:name="com.yanzhenjie.album.app.album.AlbumActivity"
+276-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:31:13-72
+277            android:configChanges="orientation|screenSize"
+277-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:32:13-59
+278            android:theme="@style/Album.Theme.Activity"
+278-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:33:13-56
+279            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+279-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:34:13-72
+280        <activity
+280-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:35:9-39:75
+281            android:name="com.yanzhenjie.album.app.album.GalleryActivity"
+281-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:36:13-74
+282            android:configChanges="orientation|screenSize"
+282-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:37:13-59
+283            android:theme="@style/Album.Theme.Activity"
+283-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:38:13-56
+284            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+284-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:39:13-72
+285        <activity
+285-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:40:9-44:75
+286            android:name="com.yanzhenjie.album.app.album.NullActivity"
+286-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:41:13-71
+287            android:configChanges="orientation|screenSize"
+287-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:42:13-59
+288            android:theme="@style/Album.Theme.Activity"
+288-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:43:13-56
+289            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+289-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:44:13-72
+290        <activity
+290-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:45:9-49:75
+291            android:name="com.yanzhenjie.album.app.gallery.GalleryActivity"
+291-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:46:13-76
+292            android:configChanges="orientation|screenSize"
+292-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:47:13-59
+293            android:theme="@style/Album.Theme.Activity"
+293-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:48:13-56
+294            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+294-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:49:13-72
+295        <activity
+295-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:50:9-54:75
+296            android:name="com.yanzhenjie.album.app.gallery.GalleryAlbumActivity"
+296-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:51:13-81
+297            android:configChanges="orientation|screenSize"
+297-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:52:13-59
+298            android:theme="@style/Album.Theme.Activity"
+298-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:53:13-56
+299            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+299-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:54:13-72
+300        <activity
+300-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:55:9-59:75
+301            android:name="com.yanzhenjie.album.app.camera.CameraActivity"
+301-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:56:13-74
+302            android:configChanges="orientation|screenSize"
+302-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:57:13-59
+303            android:theme="@style/Album.Theme.Activity.Transparent"
+303-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:58:13-68
+304            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+304-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:59:13-72
+305
+306        <provider
+306-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:61:9-70:20
+307            android:name="com.yanzhenjie.album.provider.CameraFileProvider"
+307-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:62:13-76
+308            android:authorities="com.bene.pictures.app.file.provider"
+308-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:63:13-69
+309            android:exported="false"
+309-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:64:13-37
+310            android:grantUriPermissions="true"
+310-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:65:13-47
+311            android:multiprocess="true" >
+311-->[:album-2.1.3:] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/7265c207e3d62c0b7e846717799bf758/album-2.1.3/AndroidManifest.xml:66:13-40
+312            <meta-data
+312-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
+313                android:name="android.support.FILE_PROVIDER_PATHS"
+313-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
+314                android:resource="@xml/album_camera_provider" />
+314-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
+315        </provider>
+316
+317        <activity
+317-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:10:9-15:75
+318            android:name="com.blankj.utilcode.util.PermissionUtils$PermissionActivity"
+318-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:11:13-87
+319            android:configChanges="orientation|keyboardHidden|screenSize"
+319-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:12:13-74
+320            android:multiprocess="true"
+320-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:13:13-40
+321            android:theme="@style/ActivityTranslucent"
+321-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:14:13-55
+322            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+322-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:15:13-72
+323
+324        <provider
+324-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:17:9-26:20
+325            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
+325-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:18:13-80
+326            android:authorities="com.bene.pictures.utilcode.provider"
+326-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:19:13-69
+327            android:exported="false"
+327-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:20:13-37
+328            android:grantUriPermissions="true"
+328-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:21:13-47
+329            android:multiprocess="true" >
+329-->[com.blankj:utilcode:1.22.1] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/39e0446eb19be57ba1bfe2e6f9dba06b/utilcode-1.22.1/AndroidManifest.xml:22:13-40
+330            <meta-data
+330-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:174:13-176:62
+331                android:name="android.support.FILE_PROVIDER_PATHS"
+331-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:175:17-67
+332                android:resource="@xml/util_code_provider_paths" />
+332-->/Users/jeong-useog/Desktop/bene_android/android/app/src/main/AndroidManifest.xml:176:17-59
+333        </provider>
+334
+335        <activity
+335-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:12:9-19:20
+336            android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity"
+336-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:13:13-86
+337            android:configChanges="orientation|screenSize"
+337-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:14:13-59
+338            android:exported="false"
+338-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:15:13-37
+339            android:label="@string/com_kakao_login_button"
+339-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:16:13-59
+340            android:launchMode="singleTop"
+340-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:17:13-43
+341            android:windowSoftInputMode="adjustResize" >
+341-->[com.kakao.sdk:auth:1.20.0] /Users/jeong-useog/.gradle/caches/transforms-2/files-2.1/78d3feb8d3ddb465ced0e8fab6d9fce6/auth-1.20.0/AndroidManifest.xml:18:13-55
+342        </activity>
+343    </application>
+344
+345</manifest>

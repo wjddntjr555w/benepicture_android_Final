@@ -28,6 +28,8 @@ import com.kakao.network.ErrorResult;
 import com.kakao.network.callback.ResponseCallback;
 import com.kakao.usermgmt.UserManagement;
 import com.kakao.usermgmt.callback.MeResponseCallback;
+import com.kakao.usermgmt.callback.MeV2ResponseCallback;
+import com.kakao.usermgmt.response.MeV2Response;
 import com.kakao.usermgmt.response.model.UserProfile;
 import com.kakao.util.exception.KakaoException;
 import com.kakao.util.helper.log.Logger;
@@ -219,7 +221,7 @@ public class LoginActivity extends BaseActivity {
 
         @Override
         public void onSessionOpened() {
-            UserManagement.getInstance().requestMe(new MeResponseCallback() {
+            UserManagement.getInstance().me(new MeV2ResponseCallback() {
                 @Override
                 public void onFailure(ErrorResult errorResult) {
                     String message = "failed to get user info. msg=" + errorResult;
@@ -231,16 +233,17 @@ public class LoginActivity extends BaseActivity {
                     Toast.makeText(LoginActivity.this, "SessionClosed", Toast.LENGTH_SHORT).show();
                 }
 
-                @Override
-                public void onNotSignedUp() {
-                } // 카카오톡 회원이 아닐 시 showSignup(); 호출해야함
+//                @Override
+//                public void onNotSignedUp() {
+//                } // 카카오톡 회원이 아닐 시 showSignup(); 호출해야함
 
                 @Override
-                public void onSuccess(UserProfile userProfile) {  //성공 시 userProfile 형태로 반환
+                public void onSuccess(MeV2Response userProfile) {  //성공 시 userProfile 형태로 반환
                     Logger.d("UserProfile : " + userProfile);
 
+
                     final String kakao_id = "" + userProfile.getId();
-                    final String kakao_email = userProfile.getEmail() == null ? "" : userProfile.getEmail();
+//                    final String kakao_email = userProfile.getEmail() == null ? "" : userProfile.getEmail();
                     final String kakao_name = "" + userProfile.getNickname();
 
                     UserManagement.getInstance().requestLogout(null);
@@ -262,7 +265,7 @@ public class LoginActivity extends BaseActivity {
             if (exception != null) {
                 Logger.e(exception);
             }
-            Toast.makeText(LoginActivity.this, "SessionOpenFailed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "로그인 도중 오류가 발생했습니다. 인터넷 연결을 확인해주세요: "+exception.toString(), Toast.LENGTH_SHORT).show();
         }
     }
 

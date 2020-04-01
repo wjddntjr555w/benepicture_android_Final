@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">19243117445-pvra6ccj5i7r7praebom6mals5lge574.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://benepicture-d76ec.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">19243117445</string>
+    <string name="google_api_key" translatable="false">AIzaSyDqEenKnZ2pUPwR49vk4PMxKqe1JQG9uhQ</string>
+    <string name="google_app_id" translatable="false">1:19243117445:android:9ffcabcd9e2aabe94332ec</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDqEenKnZ2pUPwR49vk4PMxKqe1JQG9uhQ</string>
+    <string name="google_storage_bucket" translatable="false">benepicture-d76ec.appspot.com</string>
+</resources>

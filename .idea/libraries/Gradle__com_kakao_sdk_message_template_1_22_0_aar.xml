@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kakao.sdk:message-template:1.22.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec2723c425cb1fc3967bff0337baa4f3/message-template-1.22.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec2723c425cb1fc3967bff0337baa4f3/message-template-1.22.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kakao.sdk/message-template/1.22.0/94d0494763333dd2757099b5c3d7e47ce0f73398/message-template-1.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
